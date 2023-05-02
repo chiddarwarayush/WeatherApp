@@ -70,10 +70,7 @@ function getfromSessionStorage(){
 
 }
 
-// afaefa 
-
-
- async function fetchUserWeatherInfo(coordinates){
+async function fetchUserWeatherInfo(coordinates){
     const {lat, lon} = coordinates;
     //make grantcontainer invisible
     grantAccessContainer.classList.remove("active");
